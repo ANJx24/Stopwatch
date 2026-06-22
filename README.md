@@ -1,6 +1,6 @@
 # ⏱️ Stopwatch
 
-A modern stopwatch web application built with HTML, CSS, and JavaScript.
+A modern stopwatch web application built with HTML, CSS, and JavaScript..
 
 ## 🚀 Live Demo
 
