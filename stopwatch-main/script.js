@@ -27,6 +27,18 @@ let timerInterval = null;
 // --- ADDED FOR PiP ---
 let pipWindow = null;
 let pipRequestInProgress = false;
+function closePipWindow() {
+  try {
+    if (pipWindow && !pipWindow.closed) {
+      pipWindow.close();
+    }
+  } catch (error) {
+    console.log("PiP window already closed or unavailable.");
+  }
+
+  pipWindow = null;
+  pipRequestInProgress = false;
+}
 // --- END PiP ---
 
 // ============================================
@@ -231,6 +243,8 @@ function reset() {
   if ($id("record-container")) $id("record-container").style.display = "none";
   timer = false;
   closePipWindow(); // --- ADDED FOR PiP ---
+  $id("count").innerHTML = "00";
+  initializeProgressCircle();
   
   // Play beep sound on reset
   playSound(beepSound);
@@ -763,7 +777,11 @@ function initializeVoiceControl() {
             } else {
                 showVoiceStatus('⚠️ Start stopwatch first', '#ff6b35');
             }
-        } else if (command.includes('clear lap') || command.includes('delete lap')) {
+       } else if (
+  command.includes('clear') ||
+  command.includes('clear lap') ||
+  command.includes('delete lap')
+) {
             clearLap();
             showVoiceStatus('🗑️ **CLEARED** All laps', '#ff6b35');
         } else if (command.includes('export') || command.includes('download') || command.includes('save lap')) {

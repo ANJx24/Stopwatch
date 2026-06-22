@@ -97,7 +97,6 @@
 - [x] What's new section
 - [x] Tips & tricks
 - [x] Contributing guidelines
-- [x] License information
 - [x] Acknowledgments
 
 ### 10. 🧱 Favicon + Title

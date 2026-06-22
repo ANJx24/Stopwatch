@@ -1,8 +1,6 @@
-# ⏱️ Stopwatch by Hector JS 🎉
+# ⏱️ Stopwatch by ANUJ JHA 🎉
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=appveyor)](https://avinash201199.github.io/stopwatch/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-orange?style=for-the-badge)]()
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=appveyor)](https://anjx24.github.io/stopwatch/)
 
 A **modern, feature-rich stopwatch** with beautiful UI, dark mode support, and advanced functionality. Built with **vanilla JavaScript, HTML, and CSS**.
 
@@ -87,7 +85,7 @@ It includes **Pomodoro timers, custom countdown timers**, and **persistent dark/
 
 ````bash
 # Clone the repository
-git clone https://github.com/ANJx24
+git clone https://github.com/ANJx24/stopwatch.git
 cd stopwatch
 
 # Open index.html in browser
@@ -370,10 +368,6 @@ stopwatch/
 - Audio may require user interaction on some browsers due to autoplay policies
 - LocalStorage limited to 24-hour persistence (by design)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Original Creator:** Anuj Jha – for building the foundation of this stopwatch project
@@ -393,12 +387,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Thank you to all the amazing contributors who have helped make this project better! 🎉
 
 <a href="https://github.com/ANJx24/stopwatch/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=avinash201199/stopwatch" />
+  <img src="https://contrib.rocks/image?repo=ANJx24/stopwatch" />
 </a>
 
 ---
 
 <div align="center">
   <p><strong>⭐ If you like this project, please give it a star! ⭐</strong></p>
-  <p>Made by ❤️ by the open-source community</p>
+  <p>Made by ❤️ Anuj Jha</p>
 </div>
