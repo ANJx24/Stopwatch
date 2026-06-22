@@ -4,7 +4,7 @@ A modern stopwatch web application built with HTML, CSS, and JavaScript..
 
 ## 🚀 Live Demo
 
-https://anjx24.github.io/Stopwatch/
+https://anjx24.github.io/Stopwatch/stopwatch-main/
 
 ## ✨ Features
 
